@@ -1,0 +1,391 @@
+object Form2: TForm2
+  Left = 599
+  Height = 301
+  Top = 347
+  Width = 322
+  Caption = 'Form2'
+  ClientHeight = 301
+  ClientWidth = 322
+  OnCreate = FormCreate
+  LCLVersion = '1.6.4.0'
+  object Edit1: TEdit
+    Left = 8
+    Height = 23
+    Top = 8
+    Width = 304
+    BidiMode = bdRightToLeft
+    ParentBidiMode = False
+    OnChange = Edit1Change
+    TabOrder = 0
+  end
+  object RadioButton1: TRadioButton
+    Left = 9
+    Height = 25
+    Top = 40
+    Width = 50
+    Caption = 'Hex'
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Height = -19
+    Font.Name = 'Times New Roman'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    OnChange = RadioButton1Change
+    ParentFont = False
+    TabOrder = 1
+  end
+  object RadioButton2: TRadioButton
+    Left = 72
+    Height = 25
+    Top = 40
+    Width = 50
+    Caption = 'Dec'
+    Checked = True
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Height = -19
+    Font.Name = 'Times New Roman'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    OnChange = RadioButton2Change
+    ParentFont = False
+    TabOrder = 2
+    TabStop = True
+  end
+  object RadioButton3: TRadioButton
+    Left = 128
+    Height = 25
+    Top = 40
+    Width = 48
+    Caption = 'Oct'
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Height = -19
+    Font.Name = 'Times New Roman'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    OnChange = RadioButton3Change
+    ParentFont = False
+    TabOrder = 3
+  end
+  object RadioButton4: TRadioButton
+    Left = 184
+    Height = 25
+    Top = 40
+    Width = 45
+    Caption = 'Bin'
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Height = -19
+    Font.Name = 'Times New Roman'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    OnChange = RadioButton4Change
+    ParentFont = False
+    TabOrder = 4
+  end
+  object Button1: TButton
+    Left = 8
+    Height = 33
+    Top = 224
+    Width = 40
+    Caption = '1'
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Height = -19
+    Font.Name = 'Times New Roman'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    OnClick = ClickBut
+    ParentFont = False
+    TabOrder = 5
+  end
+  object Button2: TButton
+    Left = 56
+    Height = 33
+    Top = 224
+    Width = 40
+    Caption = '2'
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Height = -19
+    Font.Name = 'Times New Roman'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    OnClick = ClickBut
+    ParentFont = False
+    TabOrder = 6
+  end
+  object Button3: TButton
+    Left = 104
+    Height = 33
+    Top = 224
+    Width = 40
+    Caption = '3'
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Height = -19
+    Font.Name = 'Times New Roman'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    OnClick = ClickBut
+    ParentFont = False
+    TabOrder = 7
+  end
+  object Button4: TButton
+    Left = 8
+    Height = 33
+    Top = 184
+    Width = 40
+    Caption = '4'
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Height = -19
+    Font.Name = 'Times New Roman'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    OnClick = ClickBut
+    ParentFont = False
+    TabOrder = 8
+  end
+  object Button5: TButton
+    Left = 56
+    Height = 33
+    Top = 184
+    Width = 40
+    Caption = '5'
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Height = -19
+    Font.Name = 'Times New Roman'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    OnClick = ClickBut
+    ParentFont = False
+    TabOrder = 9
+  end
+  object Button6: TButton
+    Left = 104
+    Height = 33
+    Top = 184
+    Width = 40
+    Caption = '6'
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Height = -19
+    Font.Name = 'Times New Roman'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    OnClick = ClickBut
+    ParentFont = False
+    TabOrder = 10
+  end
+  object Button7: TButton
+    Left = 8
+    Height = 33
+    Top = 144
+    Width = 40
+    Caption = '7'
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Height = -19
+    Font.Name = 'Times New Roman'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    OnClick = ClickBut
+    ParentFont = False
+    TabOrder = 11
+  end
+  object Button8: TButton
+    Left = 56
+    Height = 33
+    Top = 144
+    Width = 40
+    Caption = '8'
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Height = -19
+    Font.Name = 'Times New Roman'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    OnClick = ClickBut
+    ParentFont = False
+    TabOrder = 12
+  end
+  object Button9: TButton
+    Left = 104
+    Height = 33
+    Top = 144
+    Width = 40
+    Caption = '9'
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Height = -19
+    Font.Name = 'Times New Roman'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    OnClick = ClickBut
+    ParentFont = False
+    TabOrder = 13
+  end
+  object Button10: TButton
+    Left = 168
+    Height = 33
+    Top = 144
+    Width = 40
+    Caption = 'A'
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Height = -19
+    Font.Name = 'Times New Roman'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    OnClick = ClickBut
+    ParentFont = False
+    TabOrder = 14
+  end
+  object Button11: TButton
+    Left = 216
+    Height = 33
+    Top = 144
+    Width = 40
+    Caption = 'B'
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Height = -19
+    Font.Name = 'Times New Roman'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    OnClick = ClickBut
+    ParentFont = False
+    TabOrder = 15
+  end
+  object Button12: TButton
+    Left = 264
+    Height = 33
+    Top = 144
+    Width = 40
+    Caption = 'C'
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Height = -19
+    Font.Name = 'Times New Roman'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    OnClick = ClickBut
+    ParentFont = False
+    TabOrder = 16
+  end
+  object Button13: TButton
+    Left = 168
+    Height = 33
+    Top = 184
+    Width = 40
+    Caption = 'D'
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Height = -19
+    Font.Name = 'Times New Roman'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    OnClick = ClickBut
+    ParentFont = False
+    TabOrder = 17
+  end
+  object Button14: TButton
+    Left = 216
+    Height = 33
+    Top = 184
+    Width = 40
+    Caption = 'E'
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Height = -19
+    Font.Name = 'Times New Roman'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    OnClick = ClickBut
+    ParentFont = False
+    TabOrder = 18
+  end
+  object Button15: TButton
+    Left = 264
+    Height = 33
+    Top = 184
+    Width = 40
+    Caption = 'F'
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Height = -19
+    Font.Name = 'Times New Roman'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    OnClick = ClickBut
+    ParentFont = False
+    TabOrder = 19
+  end
+  object Button16: TButton
+    Left = 208
+    Height = 25
+    Top = 104
+    Width = 88
+    Caption = 'Вернуться'
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Height = -19
+    Font.Name = 'Times New Roman'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    OnClick = Button16Click
+    ParentFont = False
+    TabOrder = 20
+  end
+  object But22: TButton
+    Left = 8
+    Height = 41
+    Top = 96
+    Width = 88
+    Caption = '←'
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Height = -19
+    Font.Name = 'Times New Roman'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    OnClick = But22Click
+    ParentFont = False
+    TabOrder = 21
+  end
+  object But21: TButton
+    Left = 104
+    Height = 40
+    Top = 97
+    Width = 40
+    Caption = 'ce'
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Height = -19
+    Font.Name = 'Times New Roman'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    OnClick = But21Click
+    ParentFont = False
+    TabOrder = 22
+  end
+  object But20: TButton
+    Left = 152
+    Height = 40
+    Top = 97
+    Width = 40
+    Caption = 'c'
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Height = -19
+    Font.Name = 'Times New Roman'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    OnClick = But20Click
+    ParentFont = False
+    TabOrder = 23
+  end
+  object Button0: TButton
+    Left = 9
+    Height = 20
+    Top = 264
+    Width = 136
+    Caption = '0'
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Height = -19
+    Font.Name = 'Times New Roman'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    OnClick = ClickBut
+    ParentFont = False
+    TabOrder = 24
+  end
+  object Edit2: TEdit
+    Left = 216
+    Height = 23
+    Top = 72
+    Width = 80
+    OnChange = Edit2Change
+    TabOrder = 25
+  end
+end
